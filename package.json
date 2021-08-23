@@ -1,0 +1,22 @@
+{
+  "name": "apartment-finding-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoraKlara/Apartment-finding-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoraKlara/Apartment-finding-website/issues"
+  },
+  "homepage": "https://github.com/BoraKlara/Apartment-finding-website#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
