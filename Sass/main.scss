@@ -1,13 +1,10 @@
-* {
-  box-sizing: border-box;
-}
 
-html {
-  font-size: 63.5%;
-}
 
-body {
-  font-family: "Robort", sans-serif;
+@import "base";
+@import "features";
+@import "footers";
+@import "gallery";
+@import "sidebar";
+@import "story";
+@import "typography";
 
-  font-weight: 400;
-}
