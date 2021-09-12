@@ -61,6 +61,7 @@ nav {
 
 #hero__title {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 /* .logo {
@@ -68,6 +69,33 @@ nav {
   height: 50px;
 }
  */
+
+hr {
+  width: 218px;
+  height: 1px;
+  border: 2px solid #e1b942;
+
+  margin: 20px auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+#house__img--main {
+  width: 500px;
+  height: 387px;
+  border: 1px solid #707070;
+}
+
+#apartment__img--main {
+  width: 460x;
+  height: 387px;
+  border: 1px solid #707070;
+}
 
 .gold {
   width: 15px;
