@@ -91,18 +91,20 @@ hr {
 .wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50%;
-      grid-template-columns: 50%;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
 }
 
 #house__img--main {
-  width: 778px;
+  width: 500px;
   height: 387px;
   border: 1px solid #707070;
 }
 
 #apartment__img--main {
-  width: 778px;
+  width: 460x;
   height: 387px;
   border: 1px solid #707070;
 }
