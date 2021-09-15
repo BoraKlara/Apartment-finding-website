@@ -78,24 +78,84 @@ hr {
   margin: 20px auto;
 }
 
-.wrapper {
+.gallery {
+  margin: auto;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
+  min-height: 80vh;
+  width: 90%;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-#house__img--main {
+.gallery1 {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/3;
+}
+
+.gallery2 {
+  width: 300px;
+  height: 500px;
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+
+.gallery3 {
+  width: 300px;
+  height: 200px;
+}
+
+.gallery4 {
+  width: 300px;
+  height: 200px;
+}
+
+.gallery5 {
+  width: 300px;
+  height: 200px;
+}
+
+.gallery6 {
+  width: 300px;
+  height: 200px;
+}
+
+/* .container div {
+  padding: 10px;
+  border: 1 px solid #000000;
+} */
+
+/* #house__img--main {
   width: 500px;
   height: 387px;
   border: 1px solid #707070;
+  position: relative;
+} */
+
+/* .color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.7;
 }
 
 #apartment__img--main {
   width: 460x;
   height: 387px;
   border: 1px solid #707070;
+} */
+
+/* .large-img {
+  width: 460x;
+  height: 387px;
+  border: 1px solid #707070;
 }
+
+.small-img {
+  width: 200x;
+  height: 150x;
+  border: 1px solid #707070;
+} */
 
 .gold {
   width: 15px;
