@@ -1,19 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@use "layouts/home";
 
 body {
-  background: #fdfdfd;
-  font: 62.5%;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
+  font-size: home.$font;
 }
 
 .logo {
