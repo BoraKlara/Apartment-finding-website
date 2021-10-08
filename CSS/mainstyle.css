@@ -90,12 +90,13 @@ hr {
   /*  grid-template-columns: repeat(6, 1fr);
   grid-gap: 4rem; */
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  margin: auto;
 }
 
 .gallery-main img {
-  width: 300px;
-  height: 250px;
+  width: 400px;
+  height: 300px;
   /*  object-fit: cover; */
 }
 
