@@ -106,12 +106,18 @@ hr {
   /*  object-fit: cover; */
 }
 
-/* .gallery1 {
-  width: 40px;
-  height: 60px;
+.gallery1 img {
+  position: relative;
 }
 
-.gallery2 {
+#title-1 {
+  top: 50px;
+  left: 60px;
+  position: absolute;
+  color: goldenrod;
+}
+
+/* .gallery2 {
   width: 40px;
   height: 60px;
 } */
@@ -149,3 +155,5 @@ hr {
   height: 3px;
   color: goldenrod;
 }
+
+/* Gallery img layout*/
