@@ -84,6 +84,7 @@ hr {
 .gallery-container {
   min-height: 60vh;
   width: 90%;
+  display: flex;
 }
 .left-container {
   /*  margin: auto; */
