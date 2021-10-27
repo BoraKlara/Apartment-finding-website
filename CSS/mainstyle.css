@@ -150,9 +150,9 @@ hr {
 
 #title-1 {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  bottom: 20px;
+  left: 50%20px;
+  /*   transform: translate(-50%, -50%); */
   color: #e1b942;
   z-index: 2;
 }
