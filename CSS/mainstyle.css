@@ -146,32 +146,30 @@ hr {
 
 .gallery1 {
   position: relative;
+  width: 50%;
 }
 
 #title-1 {
   position: absolute;
   bottom: 20px;
-  left: 50%20px;
+  left: 20px;
   /*   transform: translate(-50%, -50%); */
   color: #e1b942;
   z-index: 2;
 }
 
-.gallery-2 {
+.gallery2 {
   position: relative;
 }
 
 .title-2 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,  -50%);
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  /*   transform: translate(-50%, -50%); */
+  color: #e1b942;
+  z-index: 2;
 }
-
-/* .gallery2 {
-  width: 40px;
-  height: 60px;
-} */
 
 .gallery-small {
   display: flex;
