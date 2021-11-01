@@ -115,7 +115,7 @@ hr {
   margin: auto; 
 } */
 
-.gallery-main-right {
+.gallery-main {
   /*  margin: auto; */
   display: flex;
 
@@ -126,12 +126,7 @@ hr {
   margin: auto;
 }
 
-.gallery-main-left img {
-  width: 400px;
-  height: 300px;
-  /*  object-fit: cover; */
-}
-.gallery-main-right img {
+.gallery-main img {
   width: 400px;
   height: 300px;
   /*  object-fit: cover; */
@@ -175,7 +170,7 @@ hr {
   display: flex;
   min-height: 20vh;
   width: 90%;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
