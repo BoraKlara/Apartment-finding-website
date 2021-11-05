@@ -111,6 +111,7 @@ hr {
   width: 40%;
   display: flex;
   justify-content: center;
+  margin: 0 50px;
 }
 
 .gallery-small img {
@@ -182,5 +183,7 @@ hr {
 
 /* Gallery img layout*/
 
-form {
+.form-section {
+  width: 50%;
+  margin: 0 auto;
 }
