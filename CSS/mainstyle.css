@@ -107,12 +107,12 @@ hr {
   /*  object-fit: cover; */
 }
 
-/* .gallery-samll {
-  width: 40%;
+.gallery-small-1 {
+  width: 400px;
   display: flex;
   justify-content: center;
   margin: 0 50px;
-} */
+}
 
 .gallery-small img {
   width: 150px;
