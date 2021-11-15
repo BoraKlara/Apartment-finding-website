@@ -114,7 +114,7 @@ hr {
   margin: 0 50px;
 }
 
-.gallery-small img {
+.gallery-small-1 img {
   width: 150px;
   height: 100px;
   /*  object-fit: cover; */
@@ -123,6 +123,19 @@ hr {
 .gallery1 {
   position: relative;
   width: 50%;
+}
+
+.gallery-small-2 {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 80px;
+}
+
+.gallery-small-2 img {
+  width: 150px;
+  height: 100px;
+  /*  object-fit: cover; */
 }
 
 #title-1 {
@@ -147,13 +160,13 @@ hr {
   z-index: 2;
 }
 
-.gallery-small {
+í/*.gallery-small {
   display: flex;
   min-height: 20vh;
   width: 400px;
   justify-content: space-between;
   align-items: center;
-}
+}/*
 
 ./* gallery3 {
   width: 40px;
