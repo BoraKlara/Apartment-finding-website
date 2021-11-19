@@ -203,5 +203,5 @@ hr {
 
 .footer-section {
   height: 600px;
-  background: linear-gradient(to right, blue, green);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
 }
