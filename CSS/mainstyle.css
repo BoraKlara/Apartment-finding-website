@@ -82,6 +82,7 @@ hr {
   margin: 20px auto;
 }
 .gallery-container {
+  display: flex;
   min-height: 60vh;
   width: 90%;
   display: flex;
@@ -89,18 +90,31 @@ hr {
   margin: 20px auto;
 }
 
-.gallery-main {
+.gallery-left {
   /*  margin: auto; */
   display: flex;
+  flex-direction: column;
 
   /*  grid-template-columns: repeat(6, 1fr);
   grid-gap: 4rem; */
-  align-items: flex-end;
-  justify-content: space-around;
+  /*  align-items: flex-end;
+  justify-content: space-around; */
   margin: auto;
 }
 
-.gallery-main img {
+.gallery-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-left img {
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  /*  object-fit: cover; */
+}
+
+.gallery-right img {
   width: 400px;
   height: 300px;
   margin: 20px;
